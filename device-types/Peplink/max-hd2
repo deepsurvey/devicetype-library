@@ -1,0 +1,43 @@
+---
+manufacturer: Peplink
+model: MAX HD2
+slug: max-hd2
+part_number: BPL-031-LTEA
+u_height: 1
+comments: '[Peplink MAX HD2 Multi-WAN Router](https://www.peplink.com/products/max-multi-cellular-hd2-router/)'
+is_full_depth: false
+interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: lan2
+    type: 1000base-t
+  - name: lan3
+    type: 1000base-t
+  - name: lan4
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: wan2
+    type: 1000base-t
+  - name: usb
+    type: other
+    description: usb wan port
+  - name: cellular1
+    type: lte
+    description: lte1 wan
+  - name: cellular2
+    type: lte
+    description: lte2 wan
+  - name: cellular3
+    type: lte
+    description: lte3 wan
+  - name: cellular4
+    type: lte
+    description: lte4 wan
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 38
+weight:
+  - value: 1.9
+    unit: kg
