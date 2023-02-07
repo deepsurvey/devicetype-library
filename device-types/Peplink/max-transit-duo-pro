@@ -1,0 +1,22 @@
+---
+manufacturer: Peplink
+model: MAX Transit Duo Pro
+slug: max-transit-duo-pro
+u_height: 1
+comments: '[Pepwave MAX Transit Duo Pro](https://www.peplink.com/products/max-transit-pro/)'
+is_full_depth: false
+interfaces:
+  - name: lan1
+    type: 1000base-t
+  - name: wan1
+    type: 1000base-t
+  - name: cellular
+    type: lte
+    description: lte1 wan
+power-ports:
+  - name: PSU1
+    type: dc-terminal
+    maximum_draw: 18
+weight:
+  - value: 0.73
+    unit: kg
